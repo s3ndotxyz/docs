@@ -71,6 +71,20 @@
       "pages": ["introduction", "why-s3n", "what-is-s3n"]
     },
     {
+      "group": "Build on S3N",
+      "pages": [
+        "build-on-s3n/getting-started",
+        {
+          "group": "Cred Migration",
+          "pages": [
+            "build-on-s3n/cred-migration/get",
+            "build-on-s3n/cred-migration/create",
+            "build-on-s3n/cred-migration/delete"
+          ]
+        }
+      ]
+    },
+    {
       "group": "Features",
       "pages": [
         {
