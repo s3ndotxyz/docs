@@ -79,13 +79,22 @@
       "pages": [
         "build-on-s3n/getting-started",
         {
-          "group": "zk Migration",
+          "group": "Migration",
           "pages": [
             "build-on-s3n/zk-migration/get",
             "build-on-s3n/zk-migration/create",
             "build-on-s3n/zk-migration/delete"
           ],
           "icon": "feather"
+        },
+        {
+          "group": "Aligned Verifier",
+          "pages": [
+            "build-on-s3n/aligned-verifier/get",
+            "build-on-s3n/aligned-verifier/create",
+            "build-on-s3n/aligned-verifier/delete"
+          ],
+          "icon": "badge-check"
         }
       ]
     },
@@ -119,17 +128,11 @@
     },
     {
       "group": "Ecosystem",
-      "pages": [
-        "ecosystem/partnerships",
-        "ecosystem/roadmap"
-      ]
+      "pages": ["ecosystem/partnerships", "ecosystem/roadmap"]
     },
     {
       "group": "Press",
-      "pages": [
-        "ecosystem/press/kit",
-        "ecosystem/press/socials"
-      ]
+      "pages": ["ecosystem/press/kit", "ecosystem/press/socials"]
     }
   ],
   "footerSocials": {
