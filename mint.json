@@ -2,90 +2,106 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Starter Kit",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/logo.svg",
+    "light": "/logo/logo.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.ico",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#fff",
+    "dark": "#fff",
+    "light": "#fff",
+    "background": { "dark": "#0a0c09" },
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#adff2f",
+      "to": "#adff2f"
+    }
+  },
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": true
+  },
+  "font": {
+    "headings": {
+      "family": "Space Mono"
+    },
+    "body": {
+      "family": "Space Mono"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:team@0xzero.org"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Collaborate",
+    "url": "https://noteforms.com/forms/build-with-s3n-pejl14"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "General",
+      "url": "/"
+    },
+    {
+      "name": "S3N Core",
+      "url": "s3n-core"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
+      "name": "Community",
+      "icon": "discord",
       "url": "https://mintlify.com/docs"
     },
     {
-      "name": "Community",
-      "icon": "slack",
+      "name": "Telegram",
+      "icon": "telegram",
       "url": "https://mintlify.com/community"
     },
     {
-      "name": "Blog",
+      "name": "Articles",
       "icon": "newspaper",
       "url": "https://mintlify.com/blog"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
+      "group": "Overview",
+      "pages": ["introduction", "why-s3n", "what-is-s3n"]
     },
     {
-      "group": "Essentials",
+      "group": "Features",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        {
+          "group": "Use Cases",
+          "pages": [
+            "features/usecases/potential",
+            "features/usecases/case-studies"
+          ],
+          "icon": "feather"
+        },
+        "features/omids",
+        "features/notarisation",
+        "features/reputation"
       ]
     },
     {
       "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
+      "pages": ["s3n-core/introduction"]
     },
     {
       "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "s3n-core/endpoint/get",
+        "s3n-core/endpoint/create",
+        "s3n-core/endpoint/delete"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "x": "https://x.com/0xZeroOrg",
+    "github": "https://github.com/0xZeroLabs",
+    "linkedin": "https://www.linkedin.com/company/0xzero"
   }
 }
