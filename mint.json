@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Starter Kit",
   "logo": {
-    "dark": "/logo/logo.svg",
-    "light": "/logo/logo.svg"
+    "dark": "/logo/s3n.png",
+    "light": "/logo/s3n.png"
   },
   "favicon": "/favicon.png",
   "colors": {
@@ -55,14 +55,14 @@
       "url": "https://mintlify.com/docs"
     },
     {
-      "name": "Telegram",
-      "icon": "telegram",
-      "url": "https://mintlify.com/community"
-    },
-    {
       "name": "GitHub",
       "icon": "github",
       "url": "https://mintlify.com/blog"
+    },
+    {
+      "name": "Telegram",
+      "icon": "telegram",
+      "url": "https://mintlify.com/community"
     }
   ],
   "navigation": [
