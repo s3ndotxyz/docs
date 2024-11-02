@@ -5,7 +5,7 @@
     "dark": "/logo/logo.svg",
     "light": "/logo/logo.svg"
   },
-  "favicon": "/favicon.ico",
+  "favicon": "/favicon.png",
   "colors": {
     "primary": "#fff",
     "dark": "#fff",
@@ -60,8 +60,8 @@
       "url": "https://mintlify.com/community"
     },
     {
-      "name": "Articles",
-      "icon": "newspaper",
+      "name": "GitHub",
+      "icon": "github",
       "url": "https://mintlify.com/blog"
     }
   ],
