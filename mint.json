@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "S3N",
   "logo": {
     "dark": "/logo/s3n.png",
     "light": "/logo/s3n.png"
@@ -46,6 +46,10 @@
     {
       "name": "S3N Core",
       "url": "s3n-core"
+    },
+    {
+      "name": "Ecosystem",
+      "url": "ecosystem"
     }
   ],
   "anchors": [
@@ -75,12 +79,13 @@
       "pages": [
         "build-on-s3n/getting-started",
         {
-          "group": "Cred Migration",
+          "group": "zk Migration",
           "pages": [
-            "build-on-s3n/cred-migration/get",
-            "build-on-s3n/cred-migration/create",
-            "build-on-s3n/cred-migration/delete"
-          ]
+            "build-on-s3n/zk-migration/get",
+            "build-on-s3n/zk-migration/create",
+            "build-on-s3n/zk-migration/delete"
+          ],
+          "icon": "feather"
         }
       ]
     },
@@ -110,6 +115,20 @@
         "s3n-core/endpoint/get",
         "s3n-core/endpoint/create",
         "s3n-core/endpoint/delete"
+      ]
+    },
+    {
+      "group": "Ecosystem",
+      "pages": [
+        "ecosystem/partnerships",
+        "ecosystem/roadmap"
+      ]
+    },
+    {
+      "group": "Press",
+      "pages": [
+        "ecosystem/press/kit",
+        "ecosystem/press/socials"
       ]
     }
   ],
