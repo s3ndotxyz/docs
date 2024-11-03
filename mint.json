@@ -56,17 +56,17 @@
     {
       "name": "Community",
       "icon": "discord",
-      "url": "https://mintlify.com/docs"
+      "url": "https://discord.gg/MCzFYszSRr"
     },
     {
       "name": "GitHub",
       "icon": "github",
-      "url": "https://mintlify.com/blog"
+      "url": "https://github.com/0xZeroLabs"
     },
     {
       "name": "Telegram",
       "icon": "telegram",
-      "url": "https://mintlify.com/community"
+      "url": "https://telegram.org/s3network"
     }
   ],
   "navigation": [
