@@ -81,6 +81,7 @@
         {
           "group": "Migration",
           "pages": [
+            "build-on-s3n/zk-migration/understanding",
             "build-on-s3n/zk-migration/get",
             "build-on-s3n/zk-migration/create",
             "build-on-s3n/zk-migration/delete"
