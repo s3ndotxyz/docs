@@ -134,6 +134,10 @@
     {
       "group": "Press",
       "pages": ["ecosystem/press/kit", "ecosystem/press/socials"]
+    },
+    {
+      "group": "Papers",
+      "pages": ["ecosystem/papers/decks"]
     }
   ],
   "footerSocials": {
