@@ -116,7 +116,7 @@
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Overview",
       "pages": ["s3n-core/introduction"]
     },
     {
