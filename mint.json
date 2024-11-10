@@ -45,7 +45,9 @@
     },
     {
       "name": "S3N Core",
-      "url": "s3n-core"
+      "url": "s3n-core",
+      "openapi": "/s3n-core/openapi.yml",
+      "icon": "square-terminal"
     },
     {
       "name": "Ecosystem",
@@ -118,14 +120,6 @@
     {
       "group": "Overview",
       "pages": ["s3n-core/introduction"]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "s3n-core/endpoint/get",
-        "s3n-core/endpoint/create",
-        "s3n-core/endpoint/delete"
-      ]
     },
     {
       "group": "Ecosystem",
