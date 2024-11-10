@@ -46,8 +46,7 @@
     {
       "name": "S3N Core",
       "url": "s3n-core",
-      "openapi": "/s3n-core/openapi.yml",
-      "icon": "square-terminal"
+      "openapi": "/s3n-core/openapi.yml"
     },
     {
       "name": "Ecosystem",
