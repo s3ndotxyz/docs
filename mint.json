@@ -22,10 +22,10 @@
   },
   "font": {
     "headings": {
-      "family": "Space Mono"
+      "family": "Space Grotesk"
     },
     "body": {
-      "family": "Space Mono"
+      "family": "Azeret Mono"
     }
   },
   "topbarLinks": [
@@ -82,19 +82,14 @@
         {
           "group": "Migration",
           "pages": [
-            "build-on-s3n/zk-migration/understanding",
-            "build-on-s3n/zk-migration/get",
-            "build-on-s3n/zk-migration/create",
-            "build-on-s3n/zk-migration/delete"
+            "build-on-s3n/zk-migration/understanding", "methods"
           ],
           "icon": "feather"
         },
         {
           "group": "Aligned Verifier",
           "pages": [
-            "build-on-s3n/aligned-verifier/get",
-            "build-on-s3n/aligned-verifier/create",
-            "build-on-s3n/aligned-verifier/delete"
+            "build-on-s3n/aligned-verifier/what-is-aligned-verifier", "methods"
           ],
           "icon": "badge-check"
         }
