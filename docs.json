@@ -1,0 +1,82 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "maple",
+  "name": "S3N",
+  "colors": {
+    "primary": "#7B9D7B",
+    "light": "#7B9D7B",
+    "dark": "#7B9D7B"
+  },
+  "background": { "decoration": "gradient", "color": { "dark": "#1A1D16" } },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "dropdowns": [
+      {
+        "dropdown": "Learn",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": ["introduction"]
+          }
+        ],
+        "icon": "book"
+      },
+      {
+        "dropdown": "Build",
+        "icon": "brackets-square",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": ["introduction"]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Community",
+          "href": "https://t.me/s3ndotxyz",
+          "icon": "telegram"
+        },
+        {
+          "anchor": "GitHub",
+          "href": "https://github.com/s3ndotxyz/mono",
+          "icon": "github"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/logo.svg",
+    "dark": "/logo/logo.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:team@0xzero.org"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "TEE Portal",
+      "href": "https://app.s3n.xyz"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/s3ndotxyz",
+      "github": "https://github.com/s3ndotxyz/mono",
+      "telegram": "https://t.me/s3ndotxyz"
+    }
+  },
+  "fonts": {
+    "heading": {
+      "family": "Sora"
+    },
+    "body": {
+      "family": "Sora"
+    }
+  }
+}
