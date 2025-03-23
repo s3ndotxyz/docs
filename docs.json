@@ -4,10 +4,10 @@
   "name": "S3N",
   "colors": {
     "primary": "#7B9D7B",
-    "light": "#7B9D7B",
+    "light": "#628462",
     "dark": "#7B9D7B"
   },
-  "background": { "decoration": "gradient", "color": { "dark": "#1A1D16" } },
+  "background": { "decoration": "gradient", "color": { "dark": "#1A1D16", "light": "#FAFAF9" } },
   "favicon": "/favicon.svg",
   "navigation": {
     "dropdowns": [
