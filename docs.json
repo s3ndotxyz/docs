@@ -16,7 +16,7 @@
         "groups": [
           {
             "group": "Overview",
-            "pages": ["introduction"]
+            "pages": ["index"]
           }
         ],
         "icon": "book"
@@ -27,7 +27,7 @@
         "groups": [
           {
             "group": "Overview",
-            "pages": ["introduction"]
+            "pages": ["index"]
           }
         ]
       }
